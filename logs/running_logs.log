@@ -1,0 +1,47 @@
+[2023-06-29 18:49:09,589: INFO: main: >>>> Stage Data Ingestion Stage started <<<<]
+[2023-06-29 18:49:09,589: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-29 18:49:09,590: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-29 18:49:09,590: INFO: common: Directory artifacts created successfully]
+[2023-06-29 18:49:09,590: INFO: common: Directory artifacts/data_ingestion created successfully]
+[2023-06-29 18:51:49,057: INFO: dataIngestion: artifacts/data_ingestion/data.zip download! with following info: 
+Server: nginx/1.14.0 (Ubuntu)
+Date: Thu, 29 Jun 2023 07:49:09 GMT
+Content-Type: application/zip
+Content-Length: 40854701
+Last-Modified: Thu, 17 Sep 2020 05:05:40 GMT
+Connection: close
+ETag: "5f62eea4-26f64ad"
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Accept-Ranges: bytes
+
+]
+[2023-06-29 18:51:49,907: INFO: main: >>>> Stage Data Ingestion Stage completed <<<<
+
+X=============================X]
+[2023-06-29 19:56:22,316: INFO: main: >>>> Stage Data Format Stage started <<<<]
+[2023-06-29 19:56:22,317: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-29 19:56:22,317: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-29 19:56:22,317: INFO: common: Directory artifacts created successfully]
+[2023-06-29 19:56:22,318: ERROR: main: 'NoneType' object has no attribute 'datafile']
+Traceback (most recent call last):
+  File "/home/shaw/Documents/Projects/Chatbot/main.py", line 19, in <module>
+    data_format.main()
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/pipeline/stage02_dataFormat.py", line 23, in main
+    lines, conversations = data_format.loadLinesAndConversations()
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/components/dataFormat.py", line 13, in loadLinesAndConversations
+    with open(self.config.datafile, 'r', encoding='iso-8859-1') as f:
+              ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'datafile'
+[2023-06-29 19:58:24,271: INFO: main: >>>> Stage Data Format Stage started <<<<]
+[2023-06-29 19:58:24,271: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-29 19:58:24,272: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-29 19:58:24,272: INFO: common: Directory artifacts created successfully]
+[2023-06-29 19:58:24,272: ERROR: main: 'NoneType' object has no attribute 'utterances']
+Traceback (most recent call last):
+  File "/home/shaw/Documents/Projects/Chatbot/main.py", line 19, in <module>
+    data_format.main()
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/pipeline/stage02_dataFormat.py", line 23, in main
+    lines, conversations = data_format.loadLinesAndConversations(data_format_config.utterances)
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'utterances'
