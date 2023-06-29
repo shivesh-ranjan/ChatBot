@@ -9,3 +9,9 @@ data_ingestion:
 data_format:
   datafile: artifacts/data_ingestion/movie-corpus/formatted_movie_lines.txt
   utterances: artifacts/data_ingestion/movie-corpus/utterances.jsonl
+
+data_load:
+  save_dir: artifacts/save
+  corpus_name: movie-corpus
+  corpus: artifacts/movie-corpus
+  datafile: artifacts/data_ingestion/movie-corpus/formatted_movie_lines.txt

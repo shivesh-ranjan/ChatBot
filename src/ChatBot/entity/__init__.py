@@ -13,3 +13,12 @@ class DataIngestionConfig:
 class DataFormatConfig:
     datafile: str
     utterances: str 
+
+@dataclass(frozen=True)
+class DataLoadConfig:
+    save_dir: Path 
+    corpus_name: str 
+    corpus: Path
+    datafile: str 
+    max_length: int
+    min_count: int

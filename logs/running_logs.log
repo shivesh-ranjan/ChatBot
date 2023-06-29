@@ -106,3 +106,86 @@ TypeError: DataFormat.extractSentencePairs() takes 1 positional argument but 2 w
 [2023-06-29 20:09:12,889: INFO: main: >>>> Stage Data Format Stage completed <<<<
 
 X=============================X]
+[2023-06-29 22:47:02,429: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-29 22:47:02,429: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-29 22:47:02,430: INFO: common: Directory artifacts created successfully]
+[2023-06-29 22:47:02,430: INFO: common: Directory artifacts/save created successfully]
+[2023-06-29 22:51:47,411: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-29 22:51:47,411: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-29 22:51:47,412: INFO: common: Directory artifacts created successfully]
+[2023-06-29 22:51:47,412: INFO: common: Directory artifacts/save created successfully]
+[2023-06-29 22:55:16,139: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-29 22:55:16,140: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-29 22:55:16,140: INFO: common: Directory artifacts created successfully]
+[2023-06-29 22:55:16,140: INFO: common: Directory artifacts/save created successfully]
+[2023-06-29 22:55:16,141: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-29 22:55:16,141: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-29 22:55:16,141: INFO: common: Directory artifacts created successfully]
+[2023-06-29 22:55:16,141: INFO: common: Directory artifacts/save created successfully]
+[2023-06-29 22:55:16,141: INFO: main: >>>> Stage Data Load Stage started <<<<]
+[2023-06-29 22:55:16,182: ERROR: main: name 'unicodedata' is not defined]
+Traceback (most recent call last):
+  File "/home/shaw/Documents/Projects/Chatbot/main.py", line 30, in <module>
+    voc, pairs = data_load.main()
+                 ^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/pipeline/stage03_dataLoad.py", line 13, in main
+    voc, pairs = loadPrepareData(config.corpus, config.corpus_name, config.datafile, config.save_dir)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/components/dataLoad.py", line 102, in loadPrepareData
+    voc, pairs = readVocs(datafile, corpus_name)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/components/dataLoad.py", line 86, in readVocs
+    pairs = [[normalizeString(s) for s in l.split('\t')] for l in lines]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/components/dataLoad.py", line 86, in <listcomp>
+    pairs = [[normalizeString(s) for s in l.split('\t')] for l in lines]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/components/dataLoad.py", line 86, in <listcomp>
+    pairs = [[normalizeString(s) for s in l.split('\t')] for l in lines]
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/components/dataLoad.py", line 73, in normalizeString
+    s = unicodeToAscii(s.lower().strip())
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/components/dataLoad.py", line 67, in unicodeToAscii
+    c for c in unicodedata.normalize('NFD', s)
+               ^^^^^^^^^^^
+NameError: name 'unicodedata' is not defined
+[2023-06-29 22:56:48,087: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-29 22:56:48,087: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-29 22:56:48,087: INFO: common: Directory artifacts created successfully]
+[2023-06-29 22:56:48,087: INFO: common: Directory artifacts/save created successfully]
+[2023-06-29 22:56:48,089: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-29 22:56:48,089: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-29 22:56:48,089: INFO: common: Directory artifacts created successfully]
+[2023-06-29 22:56:48,089: INFO: common: Directory artifacts/save created successfully]
+[2023-06-29 22:56:48,090: INFO: main: >>>> Stage Data Load Stage started <<<<]
+[2023-06-29 22:56:53,484: ERROR: main: name 'PAD_token' is not defined]
+Traceback (most recent call last):
+  File "/home/shaw/Documents/Projects/Chatbot/main.py", line 30, in <module>
+    voc, pairs = data_load.main()
+                 ^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/pipeline/stage03_dataLoad.py", line 13, in main
+    voc, pairs = loadPrepareData(config.corpus, config.corpus_name, config.datafile, config.save_dir)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/components/dataLoad.py", line 103, in loadPrepareData
+    voc, pairs = readVocs(datafile, corpus_name)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/components/dataLoad.py", line 88, in readVocs
+    voc = Voc(corpus_name)
+          ^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/components/dataLoad.py", line 19, in __init__
+    self.index2word = {PAD_token: "PAD", SOS_token: "SOS", EOS_token: "EOS"}
+                       ^^^^^^^^^
+NameError: name 'PAD_token' is not defined
+[2023-06-29 22:57:28,443: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-29 22:57:28,444: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-29 22:57:28,444: INFO: common: Directory artifacts created successfully]
+[2023-06-29 22:57:28,444: INFO: common: Directory artifacts/save created successfully]
+[2023-06-29 22:57:28,445: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-29 22:57:28,445: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-29 22:57:28,445: INFO: common: Directory artifacts created successfully]
+[2023-06-29 22:57:28,445: INFO: common: Directory artifacts/save created successfully]
+[2023-06-29 22:57:28,446: INFO: main: >>>> Stage Data Load Stage started <<<<]
+[2023-06-29 22:57:34,076: INFO: main: >>>> Stage Data Load Stage completed <<<<
+
+X=============================X]

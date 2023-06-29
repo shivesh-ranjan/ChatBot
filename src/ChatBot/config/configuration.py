@@ -1,13 +1,13 @@
 from ChatBot.constants import *
 from ChatBot.utils.common import read_yaml, create_directories
-from ChatBot.entity import DataIngestionConfig, DataFormatConfig
+from ChatBot.entity import DataIngestionConfig, DataFormatConfig, DataLoadConfig
 from pathlib import Path
 
 class ConfigurationManager:
     def __init__(
         self,
-        config_filepath = Path('config/config.yaml'),
-        params_filepath = Path('params.yaml')):
+        config_filepath = CONFIG_FILE_PATH,
+        params_filepath = PARAMS_FILE_PATH):
         self.config = read_yaml(config_filepath)
         self.params = read_yaml(params_filepath)
         create_directories([self.config.artifacts_root])
@@ -30,3 +30,17 @@ class ConfigurationManager:
             utterances=config.utterances
         )
         return data_format_config
+    
+    def get_data_load_config(self) -> DataLoadConfig:
+        config = self.config.data_load
+        params = self.params.data_load
+        create_directories([config.save_dir])
+        data_load_config = DataLoadConfig(
+            save_dir=config.save_dir, 
+            corpus_name=config.corpus_name, 
+            corpus=config.corpus, 
+            datafile=config.datafile,
+            max_length=params.max_length,
+            min_count=params.min_count
+        )
+        return data_load_config

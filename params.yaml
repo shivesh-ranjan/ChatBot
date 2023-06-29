@@ -1,1 +1,3 @@
-key: value
+data_load:
+  max_length: 10  # Maximum sentence length to consider
+  min_count: 3    # Minimum word count threshold for trimming
