@@ -1046,3 +1046,280 @@ X=============================X]
 [2023-06-30 01:54:43,508: INFO: main: >>>> Stage Training Stage completed <<<<
 
 X=============================X]
+[2023-06-30 03:02:27,431: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:02:27,433: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:02:27,433: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:02:27,433: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 03:02:27,434: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:02:27,436: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:02:27,436: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:02:27,436: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 03:02:28,148: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:02:28,149: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:02:28,150: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:02:28,151: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:02:28,152: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:02:28,152: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:02:28,154: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:02:28,155: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:02:28,155: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:02:28,157: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:02:28,158: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:02:28,158: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:02:28,158: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 03:02:28,158: INFO: main: >>>> Stage Data Load Stage started <<<<]
+[2023-06-30 03:02:34,226: INFO: main: >>>> Stage Data Load Stage completed <<<<
+
+X=============================X]
+[2023-06-30 03:02:34,226: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 03:02:34,227: INFO: main: >>>> Stage Data Prepare Stage completed <<<<
+
+X=============================X]
+[2023-06-30 03:02:34,227: INFO: main: >>>> Stage Evaluation Stage started <<<<]
+[2023-06-30 03:02:34,353: ERROR: main: name 'attn_model' is not defined]
+Traceback (most recent call last):
+  File "/home/shaw/Documents/Projects/Chatbot/main.py", line 63, in <module>
+    encoder, decoder, searcher = evaluate.main(voc)
+                                 ^^^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/pipeline/stage06_evaluation.py", line 30, in main
+    decoder = LuongAttnDecoderRNN(attn_model, embedding, hidden_size, voc.num_words, decoder_n_layers, dropout)
+                                  ^^^^^^^^^^
+NameError: name 'attn_model' is not defined
+[2023-06-30 03:03:12,342: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:03:12,343: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:03:12,343: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:03:12,343: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 03:03:12,344: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:03:12,345: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:03:12,345: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:03:12,345: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 03:03:13,057: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:03:13,058: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:03:13,058: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:03:13,059: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:03:13,061: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:03:13,061: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:03:13,063: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:03:13,064: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:03:13,064: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:03:13,066: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:03:13,067: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:03:13,068: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:03:13,068: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 03:03:13,068: INFO: main: >>>> Stage Data Load Stage started <<<<]
+[2023-06-30 03:03:19,154: INFO: main: >>>> Stage Data Load Stage completed <<<<
+
+X=============================X]
+[2023-06-30 03:03:19,154: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 03:03:19,155: INFO: main: >>>> Stage Data Prepare Stage completed <<<<
+
+X=============================X]
+[2023-06-30 03:03:19,155: INFO: main: >>>> Stage Evaluation Stage started <<<<]
+[2023-06-30 03:03:19,323: INFO: main: >>>> Stage Evaluation Stage completed <<<<
+
+X=============================X]
+[2023-06-30 03:03:19,323: INFO: main: >>>> Prompt started <<<<]
+[2023-06-30 03:04:25,239: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:04:25,240: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:04:25,241: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:04:25,241: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 03:04:25,242: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:04:25,243: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:04:25,243: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:04:25,243: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 03:04:25,947: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:04:25,948: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:04:25,948: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:04:25,949: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:04:25,951: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:04:25,951: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:04:25,953: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:04:25,954: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:04:25,954: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:04:25,955: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:04:25,957: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:04:25,957: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:04:25,957: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 03:04:25,957: INFO: main: >>>> Stage Data Load Stage started <<<<]
+[2023-06-30 03:04:31,982: INFO: main: >>>> Stage Data Load Stage completed <<<<
+
+X=============================X]
+[2023-06-30 03:04:31,982: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 03:04:31,984: INFO: main: >>>> Stage Data Prepare Stage completed <<<<
+
+X=============================X]
+[2023-06-30 03:04:31,984: INFO: main: >>>> Stage Evaluation Stage started <<<<]
+[2023-06-30 03:04:32,175: INFO: main: >>>> Stage Evaluation Stage completed <<<<
+
+X=============================X]
+[2023-06-30 03:04:32,175: INFO: main: >>>> Prompt started <<<<]
+[2023-06-30 03:04:53,879: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:04:53,880: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:04:53,880: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:04:53,880: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 03:04:53,881: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:04:53,882: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:04:53,882: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:04:53,883: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 03:04:54,588: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:04:54,589: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:04:54,589: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:04:54,590: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:04:54,592: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:04:54,592: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:04:54,593: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:04:54,594: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:04:54,595: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:04:54,597: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:04:54,598: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:04:54,598: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:04:54,598: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 03:04:54,598: INFO: main: >>>> Stage Data Load Stage started <<<<]
+[2023-06-30 03:05:00,680: INFO: main: >>>> Stage Data Load Stage completed <<<<
+
+X=============================X]
+[2023-06-30 03:05:00,680: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 03:05:00,682: INFO: main: >>>> Stage Data Prepare Stage completed <<<<
+
+X=============================X]
+[2023-06-30 03:05:00,682: INFO: main: >>>> Stage Evaluation Stage started <<<<]
+[2023-06-30 03:05:00,852: INFO: main: >>>> Stage Evaluation Stage completed <<<<
+
+X=============================X]
+[2023-06-30 03:05:00,853: INFO: main: >>>> Prompt started <<<<]
+[2023-06-30 03:06:06,768: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:06:06,770: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:06:06,770: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:06:06,770: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 03:06:06,771: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:06:06,772: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:06:06,773: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:06:06,773: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 03:06:07,479: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:06:07,481: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:06:07,481: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:06:07,482: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:06:07,484: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:06:07,484: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:06:07,486: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:06:07,487: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:06:07,487: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:06:07,489: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:06:07,490: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:06:07,490: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:06:07,490: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 03:06:07,490: INFO: main: >>>> Stage Data Load Stage started <<<<]
+[2023-06-30 03:06:13,442: INFO: main: >>>> Stage Data Load Stage completed <<<<
+
+X=============================X]
+[2023-06-30 03:06:13,442: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 03:06:13,444: INFO: main: >>>> Stage Data Prepare Stage completed <<<<
+
+X=============================X]
+[2023-06-30 03:06:13,444: INFO: main: >>>> Stage Evaluation Stage started <<<<]
+[2023-06-30 03:06:13,615: INFO: main: >>>> Stage Evaluation Stage completed <<<<
+
+X=============================X]
+[2023-06-30 03:06:13,615: INFO: main: >>>> Prompt started <<<<]
+[2023-06-30 03:06:50,576: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:06:50,578: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:06:50,578: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:06:50,578: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 03:06:50,579: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:06:50,580: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:06:50,581: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:06:50,581: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 03:06:51,291: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:06:51,292: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:06:51,292: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:06:51,293: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:06:51,295: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:06:51,295: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:06:51,296: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:06:51,297: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:06:51,298: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:06:51,300: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:06:51,301: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:06:51,301: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:06:51,301: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 03:06:51,301: INFO: main: >>>> Stage Data Load Stage started <<<<]
+[2023-06-30 03:06:57,362: INFO: main: >>>> Stage Data Load Stage completed <<<<
+
+X=============================X]
+[2023-06-30 03:06:57,362: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 03:06:57,364: INFO: main: >>>> Stage Data Prepare Stage completed <<<<
+
+X=============================X]
+[2023-06-30 03:06:57,364: INFO: main: >>>> Stage Evaluation Stage started <<<<]
+[2023-06-30 03:06:57,535: INFO: main: >>>> Stage Evaluation Stage completed <<<<
+
+X=============================X]
+[2023-06-30 03:06:57,536: INFO: main: >>>> Prompt started <<<<]
+[2023-06-30 03:07:49,026: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:07:49,027: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:07:49,027: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:07:49,027: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 03:07:49,028: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:07:49,029: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:07:49,030: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:07:49,030: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 03:07:49,730: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:07:49,731: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:07:49,731: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:07:49,732: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:07:49,734: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:07:49,734: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:07:49,735: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:07:49,736: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:07:49,736: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:07:49,738: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:07:49,739: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:07:49,740: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:07:49,740: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 03:07:49,740: INFO: main: >>>> Stage Data Load Stage started <<<<]
+[2023-06-30 03:07:55,675: INFO: main: >>>> Stage Data Load Stage completed <<<<
+
+X=============================X]
+[2023-06-30 03:07:55,675: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 03:07:55,677: INFO: main: >>>> Stage Data Prepare Stage completed <<<<
+
+X=============================X]
+[2023-06-30 03:07:55,677: INFO: main: >>>> Stage Evaluation Stage started <<<<]
+[2023-06-30 03:07:55,847: INFO: main: >>>> Stage Evaluation Stage completed <<<<
+
+X=============================X]
+[2023-06-30 03:07:55,847: INFO: main: >>>> Prompt started <<<<]
+[2023-06-30 03:11:15,419: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:11:15,420: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:11:15,421: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:11:15,421: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 03:11:15,422: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:11:15,423: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:11:15,423: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:11:15,423: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 03:11:16,128: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:11:16,129: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:11:16,130: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:11:16,131: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:11:16,132: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:11:16,132: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:11:16,134: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:11:16,135: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:11:16,135: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:11:16,137: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 03:11:16,138: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 03:11:16,138: INFO: common: Directory artifacts created successfully]
+[2023-06-30 03:11:16,138: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 03:11:16,138: INFO: main: >>>> Stage Data Load Stage started <<<<]
+[2023-06-30 03:11:22,197: INFO: main: >>>> Stage Data Load Stage completed <<<<
+
+X=============================X]
+[2023-06-30 03:11:22,198: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 03:11:22,199: INFO: main: >>>> Stage Data Prepare Stage completed <<<<
+
+X=============================X]
+[2023-06-30 03:11:22,199: INFO: main: >>>> Stage Evaluation Stage started <<<<]
+[2023-06-30 03:11:22,371: INFO: main: >>>> Stage Evaluation Stage completed <<<<
+
+X=============================X]
+[2023-06-30 03:11:22,371: INFO: main: >>>> Prompt started <<<<]
