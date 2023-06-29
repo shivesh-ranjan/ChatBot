@@ -45,3 +45,64 @@ Traceback (most recent call last):
     lines, conversations = data_format.loadLinesAndConversations(data_format_config.utterances)
                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 AttributeError: 'NoneType' object has no attribute 'utterances'
+[2023-06-29 20:04:27,223: INFO: main: >>>> Stage Data Format Stage started <<<<]
+[2023-06-29 20:04:27,224: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-29 20:04:27,224: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-29 20:04:27,224: INFO: common: Directory artifacts created successfully]
+[2023-06-29 20:04:27,224: ERROR: main: 'NoneType' object has no attribute 'utterances']
+Traceback (most recent call last):
+  File "/home/shaw/Documents/Projects/Chatbot/main.py", line 19, in <module>
+    data_format.main()
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/pipeline/stage02_dataFormat.py", line 23, in main
+    lines, conversations = data_format.loadLinesAndConversations(data_format_config.utterances)
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'utterances'
+[2023-06-29 20:05:50,402: INFO: main: >>>> Stage Data Format Stage started <<<<]
+[2023-06-29 20:05:50,403: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-29 20:05:50,404: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-29 20:05:50,404: INFO: common: Directory artifacts created successfully]
+[2023-06-29 20:05:50,404: ERROR: main: DataFormat.loadLinesAndConversations() takes 1 positional argument but 2 were given]
+Traceback (most recent call last):
+  File "/home/shaw/Documents/Projects/Chatbot/main.py", line 19, in <module>
+    data_format.main()
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/pipeline/stage02_dataFormat.py", line 23, in main
+    lines, conversations = data_format.loadLinesAndConversations(data_format_config.utterances)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DataFormat.loadLinesAndConversations() takes 1 positional argument but 2 were given
+[2023-06-29 20:06:48,378: INFO: main: >>>> Stage Data Format Stage started <<<<]
+[2023-06-29 20:06:48,379: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-29 20:06:48,380: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-29 20:06:48,380: INFO: common: Directory artifacts created successfully]
+[2023-06-29 20:06:48,380: ERROR: main: [Errno 2] No such file or directory: 'artifacts/data_ingestion/movie-corpus/formatted_movie_lines.txt']
+Traceback (most recent call last):
+  File "/home/shaw/Documents/Projects/Chatbot/main.py", line 19, in <module>
+    data_format.main()
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/pipeline/stage02_dataFormat.py", line 23, in main
+    lines, conversations = data_format.loadLinesAndConversations()
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/components/dataFormat.py", line 13, in loadLinesAndConversations
+    with open(self.config.datafile, 'r', encoding='iso-8859-1') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_ingestion/movie-corpus/formatted_movie_lines.txt'
+[2023-06-29 20:07:29,330: INFO: main: >>>> Stage Data Format Stage started <<<<]
+[2023-06-29 20:07:29,331: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-29 20:07:29,331: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-29 20:07:29,332: INFO: common: Directory artifacts created successfully]
+[2023-06-29 20:07:33,354: INFO: dataFormat: Loaded Lines and Coversations successfully!]
+[2023-06-29 20:07:33,354: ERROR: main: DataFormat.extractSentencePairs() takes 1 positional argument but 2 were given]
+Traceback (most recent call last):
+  File "/home/shaw/Documents/Projects/Chatbot/main.py", line 19, in <module>
+    data_format.main()
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/pipeline/stage02_dataFormat.py", line 28, in main
+    for pair in data_format.extractSentencePairs(conversations):
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DataFormat.extractSentencePairs() takes 1 positional argument but 2 were given
+[2023-06-29 20:09:08,078: INFO: main: >>>> Stage Data Format Stage started <<<<]
+[2023-06-29 20:09:08,079: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-29 20:09:08,080: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-29 20:09:08,080: INFO: common: Directory artifacts created successfully]
+[2023-06-29 20:09:12,147: INFO: dataFormat: Loaded Lines and Coversations successfully!]
+[2023-06-29 20:09:12,505: INFO: dataFormat: Extracted Sentence Pairs]
+[2023-06-29 20:09:12,889: INFO: main: >>>> Stage Data Format Stage completed <<<<
+
+X=============================X]

@@ -7,10 +7,10 @@ class DataFormat:
         self.config = config
     
     # Splits each line of the file to create lines and conversations
-    def loadLinesAndConversations(filename):
+    def loadLinesAndConversations(self):
         lines = {}
         conversations = {}
-        with open(filename, 'r', encoding='iso-8859-1') as f:
+        with open(self.config.utterances, 'r', encoding='iso-8859-1') as f:
             for line in f:
                 lineJson = json.loads(line)
                 # Extract fields for line object
@@ -30,10 +30,11 @@ class DataFormat:
                     convObj = conversations[lineJson["conversation_id"]]
                     convObj["lines"].insert(0, lineObj)
                 conversations[convObj["conversationID"]] = convObj
-        logger.info("Loaded Lines and Coversations")
+        logger.info("Loaded Lines and Coversations successfully!")
         return lines, conversations
 
     # Extracts pairs of sentences from conversations
+    @staticmethod
     def extractSentencePairs(conversations):
         qa_pairs = []
         for conversation in conversations.values():

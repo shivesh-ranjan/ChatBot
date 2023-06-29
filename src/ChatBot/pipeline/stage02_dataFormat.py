@@ -20,7 +20,7 @@ class DataFormatTrainingPipeline:
         conversations = {}
         # Load lines and conversations
         print("\nProcessing corpus into lines and conversations...")
-        lines, conversations = data_format.loadLinesAndConversations(data_format_config.utterances)
+        lines, conversations = data_format.loadLinesAndConversations()
         # Write new csv file
         print("\nWriting newly formatted file...")
         with open(data_format_config.datafile, 'w', encoding='utf-8') as outputfile:

@@ -29,3 +29,4 @@ class ConfigurationManager:
             datafile=config.datafile, 
             utterances=config.utterances
         )
+        return data_format_config

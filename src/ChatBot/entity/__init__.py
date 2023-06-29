@@ -11,5 +11,5 @@ class DataIngestionConfig:
 
 @dataclass(frozen=True)
 class DataFormatConfig:
-    datafile: Path
-    utterances: Path
+    datafile: str
+    utterances: str 
