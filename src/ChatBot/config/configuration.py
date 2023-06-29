@@ -1,6 +1,6 @@
 from ChatBot.constants import *
 from ChatBot.utils.common import read_yaml, create_directories
-from ChatBot.entity import DataIngestionConfig, DataFormatConfig, DataLoadConfig, DataPrepareConfig
+from ChatBot.entity import DataIngestionConfig, DataFormatConfig, DataLoadConfig, DataPrepareConfig, TrainConfig
 from pathlib import Path
 
 class ConfigurationManager:
@@ -51,3 +51,28 @@ class ConfigurationManager:
             small_batch_size=params.small_batch_size
         )
         return data_prepare_config
+    
+    def get_train_config(self) -> TrainConfig:
+        config = self.config.training 
+        params = self.params.training
+        train_config = TrainConfig(
+            save_dir=config.save_dir,
+            model_name=config.model_name,
+            corpus_name=config.corpus_name,
+            loadFilename=config.loadFilename,
+            hidden_size=params.hidden_size, 
+            attn_model=params.attn_model, 
+            encoder_n_layers=params.encoder_n_layers, 
+            dropout=params.dropout, 
+            decoder_n_layers=params.decoder_n_layers, 
+            clip=params.clip, 
+            teacher_forcing_ratio=params.teacher_forcing_ratio, 
+            learning_rate=params.learning_rate, 
+            decoder_learning_ratio=params.decoder_learning_ratio, 
+            n_iteration=params.n_iteration, 
+            print_every=params.print_every, 
+            save_every=params.save_every,
+            batch_size=params.batch_size,
+            checkpoint_iter=params.checkpoint_iter
+        )
+        return train_config

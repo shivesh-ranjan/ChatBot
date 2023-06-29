@@ -15,3 +15,10 @@ data_load:
   corpus_name: movie-corpus
   corpus: artifacts/movie-corpus
   datafile: artifacts/data_ingestion/movie-corpus/formatted_movie_lines.txt
+
+training:
+  save_dir: artifacts/save
+  model_name: cb_model
+  corpus_name: movie-corpus
+  # Set checkpoint to load from; set to None if starting from scratch
+  loadFilename:

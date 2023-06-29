@@ -4,3 +4,20 @@ data_load:
 
 data_prepare:
   small_batch_size: 5 # for Example for validation
+
+training:
+  hidden_size: 500 # Embedding Layer
+  attn_model: dot 
+  encoder_n_layers: 2
+  dropout: 0.1
+  decoder_n_layers: 2
+  # Configure training/optimization
+  clip: 50.0
+  teacher_forcing_ratio: 1.0
+  learning_rate: 0.0001
+  decoder_learning_ratio: 5.0
+  n_iteration: 4000
+  print_every: 400
+  save_every: 500
+  batch_size: 64
+  checkpoint_iter: 4000

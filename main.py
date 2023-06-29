@@ -2,6 +2,7 @@ from ChatBot.pipeline.stage01_dataIngestion import DataIngestionTrainingPipeline
 from ChatBot.pipeline.stage02_dataFormat import DataFormatTrainingPipeline
 from ChatBot.pipeline.stage03_dataLoad import DataLoadTrainingPipeline
 from ChatBot.pipeline.stage04_dataPrepare import DataPrepareTrainingPipeline
+from ChatBot.pipeline.stage05_training import TrainingPipeline
 from ChatBot.logging import logger
 '''
 STAGE_NAME = 'Data Ingestion Stage'
@@ -43,4 +44,13 @@ try:
 except Exception as e:
     logger.exception(str(e))
     raise e
-# input_variable, lengths, target_variable, mask, max_target_len
+
+STAGE_NAME = 'Training Stage'
+try:
+    logger.info(f">>>> Stage {STAGE_NAME} started <<<<")
+    train = TrainingPipeline(voc, pairs)
+    train.initialize()
+    logger.info(f">>>> Stage {STAGE_NAME} completed <<<<\n\nX=============================X")
+except Exception as e:
+    logger.exception(str(e))
+    raise e

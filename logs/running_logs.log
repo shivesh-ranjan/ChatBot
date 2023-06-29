@@ -309,3 +309,740 @@ X=============================X]
 [2023-06-29 23:26:30,205: INFO: main: >>>> Stage Data Prepare Stage completed <<<<
 
 X=============================X]
+[2023-06-30 00:45:13,030: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:45:13,032: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:45:13,032: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:45:13,032: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 00:45:13,033: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:45:13,034: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:45:13,034: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:45:13,034: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 00:45:13,744: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:45:13,746: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:45:13,746: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:45:13,746: INFO: main: >>>> Stage Data Load Stage started <<<<]
+[2023-06-30 00:45:19,788: INFO: main: >>>> Stage Data Load Stage completed <<<<
+
+X=============================X]
+[2023-06-30 00:45:19,788: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 00:45:19,789: INFO: main: >>>> Stage Data Prepare Stage completed <<<<
+
+X=============================X]
+[2023-06-30 00:48:07,845: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:48:07,847: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:48:07,847: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:48:07,847: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 00:48:07,848: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:48:07,849: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:48:07,849: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:48:07,849: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 00:48:08,557: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:48:08,558: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:48:08,559: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:48:08,561: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:48:08,563: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:48:08,563: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:49:02,688: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:49:02,689: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:49:02,689: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:49:02,689: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 00:49:02,690: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:49:02,691: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:49:02,691: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:49:02,691: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 00:49:03,396: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:49:03,398: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:49:03,398: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:49:03,399: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:49:03,400: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:49:03,400: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:49:22,170: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:49:22,171: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:49:22,171: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:49:22,172: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 00:49:22,173: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:49:22,174: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:49:22,174: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:49:22,174: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 00:49:22,890: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:49:22,891: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:49:22,891: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:49:22,892: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:49:22,893: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:49:22,894: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:55:20,847: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:55:20,848: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:55:20,848: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:55:20,848: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 00:55:20,849: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:55:20,850: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:55:20,850: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:55:20,850: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 00:55:21,559: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:55:21,560: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:55:21,560: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:55:21,563: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:55:21,564: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:55:21,564: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:55:21,565: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:55:21,566: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:55:21,566: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:55:21,566: INFO: main: >>>> Stage Data Load Stage started <<<<]
+[2023-06-30 00:55:27,597: INFO: main: >>>> Stage Data Load Stage completed <<<<
+
+X=============================X]
+[2023-06-30 00:55:27,597: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 00:55:27,598: INFO: main: >>>> Stage Data Prepare Stage completed <<<<
+
+X=============================X]
+[2023-06-30 00:55:27,598: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 00:55:27,598: ERROR: main: name 'os' is not defined]
+Traceback (most recent call last):
+  File "/home/shaw/Documents/Projects/Chatbot/main.py", line 52, in <module>
+    train.initialize()
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/pipeline/stage05_training.py", line 13, in initialize
+    loadFilename = os.path.join(config.save_dir, config.model_name, config.corpus_name,
+                   ^^
+NameError: name 'os' is not defined
+[2023-06-30 00:55:42,391: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:55:42,392: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:55:42,392: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:55:42,392: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 00:55:42,394: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:55:42,395: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:55:42,395: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:55:42,395: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 00:55:43,108: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:55:43,109: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:55:43,109: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:55:43,111: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:55:43,113: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:55:43,113: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:55:43,114: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:55:43,115: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:55:43,115: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:55:43,115: INFO: main: >>>> Stage Data Load Stage started <<<<]
+[2023-06-30 00:55:49,188: INFO: main: >>>> Stage Data Load Stage completed <<<<
+
+X=============================X]
+[2023-06-30 00:55:49,189: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 00:55:49,190: INFO: main: >>>> Stage Data Prepare Stage completed <<<<
+
+X=============================X]
+[2023-06-30 00:55:49,190: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 00:55:49,190: ERROR: main: [Errno 2] No such file or directory: 'None']
+Traceback (most recent call last):
+  File "/home/shaw/Documents/Projects/Chatbot/main.py", line 52, in <module>
+    train.initialize()
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/pipeline/stage05_training.py", line 20, in initialize
+    checkpoint = torch.load(config.loadFilename)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/venv/lib/python3.11/site-packages/torch/serialization.py", line 791, in load
+    with _open_file_like(f, 'rb') as opened_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/venv/lib/python3.11/site-packages/torch/serialization.py", line 271, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/venv/lib/python3.11/site-packages/torch/serialization.py", line 252, in __init__
+    super().__init__(open(name, mode))
+                     ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'None'
+[2023-06-30 00:56:41,330: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:56:41,331: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:56:41,331: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:56:41,331: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 00:56:41,332: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:56:41,334: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:56:41,334: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:56:41,334: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 00:56:42,034: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:56:42,036: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:56:42,036: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:56:42,038: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:56:42,039: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:56:42,040: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:56:42,041: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:56:42,042: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:56:42,042: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:56:42,042: INFO: main: >>>> Stage Data Load Stage started <<<<]
+[2023-06-30 00:56:48,030: INFO: main: >>>> Stage Data Load Stage completed <<<<
+
+X=============================X]
+[2023-06-30 00:56:48,030: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 00:56:48,032: INFO: main: >>>> Stage Data Prepare Stage completed <<<<
+
+X=============================X]
+[2023-06-30 00:56:48,032: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 00:56:48,032: ERROR: main: [Errno 2] No such file or directory: 'None']
+Traceback (most recent call last):
+  File "/home/shaw/Documents/Projects/Chatbot/main.py", line 52, in <module>
+    train.initialize()
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/pipeline/stage05_training.py", line 20, in initialize
+    checkpoint = torch.load(config.loadFilename)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/venv/lib/python3.11/site-packages/torch/serialization.py", line 791, in load
+    with _open_file_like(f, 'rb') as opened_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/venv/lib/python3.11/site-packages/torch/serialization.py", line 271, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/venv/lib/python3.11/site-packages/torch/serialization.py", line 252, in __init__
+    super().__init__(open(name, mode))
+                     ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'None'
+[2023-06-30 00:57:47,154: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:57:47,156: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:57:47,156: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:57:47,156: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 00:57:47,157: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:57:47,158: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:57:47,158: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:57:47,158: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 00:57:47,861: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:57:47,862: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:57:47,862: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:57:47,865: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:57:47,866: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:57:47,866: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:57:47,867: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:57:47,868: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:57:47,868: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:57:47,868: INFO: main: >>>> Stage Data Load Stage started <<<<]
+[2023-06-30 00:57:53,802: INFO: main: >>>> Stage Data Load Stage completed <<<<
+
+X=============================X]
+[2023-06-30 00:57:53,802: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 00:57:53,804: INFO: main: >>>> Stage Data Prepare Stage completed <<<<
+
+X=============================X]
+[2023-06-30 00:57:53,804: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 00:57:53,804: ERROR: main: [Errno 2] No such file or directory: 'None']
+Traceback (most recent call last):
+  File "/home/shaw/Documents/Projects/Chatbot/main.py", line 52, in <module>
+    train.initialize()
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/pipeline/stage05_training.py", line 20, in initialize
+    checkpoint = torch.load(config.loadFilename)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/venv/lib/python3.11/site-packages/torch/serialization.py", line 791, in load
+    with _open_file_like(f, 'rb') as opened_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/venv/lib/python3.11/site-packages/torch/serialization.py", line 271, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/venv/lib/python3.11/site-packages/torch/serialization.py", line 252, in __init__
+    super().__init__(open(name, mode))
+                     ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'None'
+[2023-06-30 00:58:58,035: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:58:58,037: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:58:58,037: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:58:58,037: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 00:58:58,038: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:58:58,040: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:58:58,040: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:58:58,040: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 00:58:58,748: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:58:58,749: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:58:58,749: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:58:58,751: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:58:58,752: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:58:58,753: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:58:58,754: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 00:58:58,755: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 00:58:58,755: INFO: common: Directory artifacts created successfully]
+[2023-06-30 00:58:58,755: INFO: main: >>>> Stage Data Load Stage started <<<<]
+[2023-06-30 00:59:04,721: INFO: main: >>>> Stage Data Load Stage completed <<<<
+
+X=============================X]
+[2023-06-30 00:59:04,721: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 00:59:04,722: INFO: main: >>>> Stage Data Prepare Stage completed <<<<
+
+X=============================X]
+[2023-06-30 00:59:04,723: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 00:59:04,723: ERROR: main: cannot access local variable 'loadFilename' where it is not associated with a value]
+Traceback (most recent call last):
+  File "/home/shaw/Documents/Projects/Chatbot/main.py", line 52, in <module>
+    train.initialize()
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/pipeline/stage05_training.py", line 15, in initialize
+    if loadFilename!='None':
+       ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'loadFilename' where it is not associated with a value
+[2023-06-30 01:00:11,073: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:00:11,074: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:00:11,074: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:00:11,074: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 01:00:11,075: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:00:11,076: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:00:11,076: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:00:11,076: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 01:00:11,782: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:00:11,783: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:00:11,783: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:00:11,785: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:00:11,786: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:00:11,787: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:00:11,788: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:00:11,789: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:00:11,789: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:00:11,789: INFO: main: >>>> Stage Data Load Stage started <<<<]
+[2023-06-30 01:00:17,842: INFO: main: >>>> Stage Data Load Stage completed <<<<
+
+X=============================X]
+[2023-06-30 01:00:17,842: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 01:00:17,843: INFO: main: >>>> Stage Data Prepare Stage completed <<<<
+
+X=============================X]
+[2023-06-30 01:00:17,844: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 01:00:17,860: ERROR: main: cannot access local variable 'loadFilename' where it is not associated with a value]
+Traceback (most recent call last):
+  File "/home/shaw/Documents/Projects/Chatbot/main.py", line 52, in <module>
+    train.initialize()
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/pipeline/stage05_training.py", line 33, in initialize
+    if loadFilename:
+       ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'loadFilename' where it is not associated with a value
+[2023-06-30 01:00:44,765: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:00:44,766: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:00:44,767: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:00:44,767: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 01:00:44,768: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:00:44,769: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:00:44,770: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:00:44,770: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 01:00:45,482: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:00:45,483: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:00:45,484: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:00:45,486: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:00:45,487: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:00:45,487: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:00:45,488: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:00:45,489: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:00:45,489: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:00:45,489: INFO: main: >>>> Stage Data Load Stage started <<<<]
+[2023-06-30 01:00:51,499: INFO: main: >>>> Stage Data Load Stage completed <<<<
+
+X=============================X]
+[2023-06-30 01:00:51,499: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 01:00:51,500: INFO: main: >>>> Stage Data Prepare Stage completed <<<<
+
+X=============================X]
+[2023-06-30 01:00:51,500: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 01:00:51,517: ERROR: main: cannot access local variable 'embedding_sd' where it is not associated with a value]
+Traceback (most recent call last):
+  File "/home/shaw/Documents/Projects/Chatbot/main.py", line 52, in <module>
+    train.initialize()
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/pipeline/stage05_training.py", line 34, in initialize
+    embedding.load_state_dict(embedding_sd)
+                              ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'embedding_sd' where it is not associated with a value
+[2023-06-30 01:01:35,391: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:01:35,392: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:01:35,392: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:01:35,392: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 01:01:35,393: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:01:35,394: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:01:35,395: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:01:35,395: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 01:01:36,100: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:01:36,101: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:01:36,101: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:01:36,103: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:01:36,104: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:01:36,104: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:01:36,105: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:01:36,106: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:01:36,107: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:01:36,107: INFO: main: >>>> Stage Data Load Stage started <<<<]
+[2023-06-30 01:01:42,115: INFO: main: >>>> Stage Data Load Stage completed <<<<
+
+X=============================X]
+[2023-06-30 01:01:42,115: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 01:01:42,117: INFO: main: >>>> Stage Data Prepare Stage completed <<<<
+
+X=============================X]
+[2023-06-30 01:01:42,117: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 01:01:42,135: ERROR: main: name 'EncoderRNN' is not defined]
+Traceback (most recent call last):
+  File "/home/shaw/Documents/Projects/Chatbot/main.py", line 52, in <module>
+    train.initialize()
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/pipeline/stage05_training.py", line 36, in initialize
+    encoder = EncoderRNN(config.hidden_size, embedding, config.encoder_n_layers, config.dropout)
+              ^^^^^^^^^^
+NameError: name 'EncoderRNN' is not defined
+[2023-06-30 01:02:42,755: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:02:42,756: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:02:42,756: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:02:42,756: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 01:02:42,757: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:02:42,758: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:02:42,758: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:02:42,758: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 01:02:43,459: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:02:43,461: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:02:43,461: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:02:43,463: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:02:43,464: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:02:43,464: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:03:05,278: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:03:05,279: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:03:05,280: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:03:05,280: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 01:03:05,281: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:03:05,283: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:03:05,283: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:03:05,283: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 01:03:05,991: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:03:05,993: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:03:05,993: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:03:05,995: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:03:05,997: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:03:05,997: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:04:44,551: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:04:44,553: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:04:44,553: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:04:44,553: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 01:04:44,554: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:04:44,555: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:04:44,555: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:04:44,555: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 01:04:45,266: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:04:45,267: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:04:45,268: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:04:45,270: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:04:45,271: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:04:45,271: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:04:45,273: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:04:45,274: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:04:45,275: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:04:45,275: INFO: main: >>>> Stage Data Load Stage started <<<<]
+[2023-06-30 01:04:51,362: INFO: main: >>>> Stage Data Load Stage completed <<<<
+
+X=============================X]
+[2023-06-30 01:04:51,362: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 01:04:51,363: INFO: main: >>>> Stage Data Prepare Stage completed <<<<
+
+X=============================X]
+[2023-06-30 01:04:51,364: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 01:04:51,454: ERROR: main: name 'Attn' is not defined]
+Traceback (most recent call last):
+  File "/home/shaw/Documents/Projects/Chatbot/main.py", line 52, in <module>
+    train.initialize()
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/pipeline/stage05_training.py", line 40, in initialize
+    decoder = LuongAttnDecoderRNN(config.attn_model, embedding, config.hidden_size, self.voc.num_words, config.decoder_n_layers, config.dropout)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/models/DecoderRNN.py", line 21, in __init__
+    self.attn = Attn(attn_model, hidden_size)
+                ^^^^
+NameError: name 'Attn' is not defined
+[2023-06-30 01:05:38,077: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:05:38,078: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:05:38,079: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:05:38,079: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 01:05:38,080: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:05:38,081: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:05:38,081: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:05:38,081: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 01:05:38,784: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:05:38,786: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:05:38,786: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:05:38,788: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:05:38,789: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:05:38,789: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:05:38,792: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:05:38,793: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:05:38,793: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:05:38,793: INFO: main: >>>> Stage Data Load Stage started <<<<]
+[2023-06-30 01:05:44,729: INFO: main: >>>> Stage Data Load Stage completed <<<<
+
+X=============================X]
+[2023-06-30 01:05:44,729: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 01:05:44,731: INFO: main: >>>> Stage Data Prepare Stage completed <<<<
+
+X=============================X]
+[2023-06-30 01:05:44,731: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 01:05:44,817: ERROR: main: name 'optim' is not defined]
+Traceback (most recent call last):
+  File "/home/shaw/Documents/Projects/Chatbot/main.py", line 52, in <module>
+    train.initialize()
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/pipeline/stage05_training.py", line 50, in initialize
+    encoder_optimizer = optim.Adam(encoder.parameters(), lr=config.learning_rate)
+                        ^^^^^
+NameError: name 'optim' is not defined
+[2023-06-30 01:06:14,522: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:06:14,523: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:06:14,524: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:06:14,524: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 01:06:14,525: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:06:14,526: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:06:14,526: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:06:14,526: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 01:06:15,228: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:06:15,229: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:06:15,229: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:06:15,231: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:06:15,233: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:06:15,233: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:06:15,235: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:06:15,236: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:06:15,236: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:06:15,236: INFO: main: >>>> Stage Data Load Stage started <<<<]
+[2023-06-30 01:06:21,170: INFO: main: >>>> Stage Data Load Stage completed <<<<
+
+X=============================X]
+[2023-06-30 01:06:21,170: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 01:06:21,172: INFO: main: >>>> Stage Data Prepare Stage completed <<<<
+
+X=============================X]
+[2023-06-30 01:06:21,172: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 01:06:21,257: ERROR: main: name 'batch2TrainData' is not defined]
+Traceback (most recent call last):
+  File "/home/shaw/Documents/Projects/Chatbot/main.py", line 52, in <module>
+    train.initialize()
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/pipeline/stage05_training.py", line 58, in initialize
+    trainIters(config.model_name, self.voc, self.pairs, encoder, decoder, encoder_optimizer, decoder_optimizer,
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/components/train.py", line 93, in trainIters
+    training_batches = [batch2TrainData(voc, [random.choice(pairs) for _ in range(batch_size)])
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/components/train.py", line 93, in <listcomp>
+    training_batches = [batch2TrainData(voc, [random.choice(pairs) for _ in range(batch_size)])
+                        ^^^^^^^^^^^^^^^
+NameError: name 'batch2TrainData' is not defined
+[2023-06-30 01:08:01,474: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:08:01,476: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:08:01,476: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:08:01,476: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 01:08:01,477: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:08:01,478: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:08:01,478: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:08:01,478: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 01:08:02,180: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:08:02,181: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:08:02,182: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:08:02,184: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:08:02,186: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:08:02,186: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:08:02,188: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:08:02,190: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:08:02,190: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:08:02,190: INFO: main: >>>> Stage Data Load Stage started <<<<]
+[2023-06-30 01:08:08,153: INFO: main: >>>> Stage Data Load Stage completed <<<<
+
+X=============================X]
+[2023-06-30 01:08:08,153: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 01:08:08,155: INFO: main: >>>> Stage Data Prepare Stage completed <<<<
+
+X=============================X]
+[2023-06-30 01:08:08,155: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 01:08:09,362: ERROR: main: name 'device' is not defined]
+Traceback (most recent call last):
+  File "/home/shaw/Documents/Projects/Chatbot/main.py", line 52, in <module>
+    train.initialize()
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/pipeline/stage05_training.py", line 58, in initialize
+    trainIters(config.model_name, self.voc, self.pairs, encoder, decoder, encoder_optimizer, decoder_optimizer,
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/components/train.py", line 112, in trainIters
+    loss = train(input_variable, lengths, target_variable, mask, max_target_len, encoder,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/components/train.py", line 26, in train
+    input_variable = input_variable.to(device)
+                                       ^^^^^^
+NameError: name 'device' is not defined
+[2023-06-30 01:08:42,060: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:08:42,061: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:08:42,061: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:08:42,061: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 01:08:42,062: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:08:42,063: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:08:42,063: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:08:42,063: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 01:08:42,761: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:08:42,763: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:08:42,763: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:08:42,766: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:08:42,767: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:08:42,767: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:08:42,770: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:08:42,771: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:08:42,771: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:08:42,771: INFO: main: >>>> Stage Data Load Stage started <<<<]
+[2023-06-30 01:08:48,710: INFO: main: >>>> Stage Data Load Stage completed <<<<
+
+X=============================X]
+[2023-06-30 01:08:48,710: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 01:08:48,711: INFO: main: >>>> Stage Data Prepare Stage completed <<<<
+
+X=============================X]
+[2023-06-30 01:08:48,711: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 01:08:49,954: ERROR: main: name 'teacher_forcing_ratio' is not defined]
+Traceback (most recent call last):
+  File "/home/shaw/Documents/Projects/Chatbot/main.py", line 52, in <module>
+    train.initialize()
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/pipeline/stage05_training.py", line 58, in initialize
+    trainIters(config.model_name, self.voc, self.pairs, encoder, decoder, encoder_optimizer, decoder_optimizer,
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/components/train.py", line 114, in trainIters
+    loss = train(input_variable, lengths, target_variable, mask, max_target_len, encoder,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/components/train.py", line 50, in train
+    use_teacher_forcing = True if random.random() < teacher_forcing_ratio else False
+                                                    ^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'teacher_forcing_ratio' is not defined
+[2023-06-30 01:09:21,331: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:09:21,332: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:09:21,332: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:09:21,332: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 01:09:21,334: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:09:21,335: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:09:21,335: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:09:21,335: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 01:09:22,047: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:09:22,048: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:09:22,048: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:09:22,050: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:09:22,052: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:09:22,052: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:09:22,053: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:09:22,055: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:09:22,055: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:09:22,055: INFO: main: >>>> Stage Data Load Stage started <<<<]
+[2023-06-30 01:09:28,040: INFO: main: >>>> Stage Data Load Stage completed <<<<
+
+X=============================X]
+[2023-06-30 01:09:28,040: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 01:09:28,042: INFO: main: >>>> Stage Data Prepare Stage completed <<<<
+
+X=============================X]
+[2023-06-30 01:09:28,042: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 01:09:29,347: ERROR: main: name 'F' is not defined]
+Traceback (most recent call last):
+  File "/home/shaw/Documents/Projects/Chatbot/main.py", line 52, in <module>
+    train.initialize()
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/pipeline/stage05_training.py", line 58, in initialize
+    trainIters(config.model_name, self.voc, self.pairs, encoder, decoder, encoder_optimizer, decoder_optimizer,
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/components/train.py", line 114, in trainIters
+    loss = train(input_variable, lengths, target_variable, mask, max_target_len, encoder,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/components/train.py", line 55, in train
+    decoder_output, decoder_hidden = decoder(
+                                     ^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/models/DecoderRNN.py", line 33, in forward
+    attn_weights = self.attn(rnn_output, encoder_outputs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/models/LuongAttention.py", line 41, in forward
+    return F.softmax(attn_energies, dim=1).unsqueeze(1)
+           ^
+NameError: name 'F' is not defined
+[2023-06-30 01:10:07,537: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:10:07,538: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:10:07,538: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:10:07,538: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 01:10:07,540: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:10:07,541: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:10:07,541: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:10:07,541: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 01:10:08,249: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:10:08,250: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:10:08,250: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:10:08,251: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:10:08,253: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:10:08,253: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:10:08,255: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:10:08,256: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:10:08,256: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:10:08,256: INFO: main: >>>> Stage Data Load Stage started <<<<]
+[2023-06-30 01:10:14,285: INFO: main: >>>> Stage Data Load Stage completed <<<<
+
+X=============================X]
+[2023-06-30 01:10:14,285: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 01:10:14,286: INFO: main: >>>> Stage Data Prepare Stage completed <<<<
+
+X=============================X]
+[2023-06-30 01:10:14,286: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 01:10:15,565: ERROR: main: name 'F' is not defined]
+Traceback (most recent call last):
+  File "/home/shaw/Documents/Projects/Chatbot/main.py", line 52, in <module>
+    train.initialize()
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/pipeline/stage05_training.py", line 58, in initialize
+    trainIters(config.model_name, self.voc, self.pairs, encoder, decoder, encoder_optimizer, decoder_optimizer,
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/components/train.py", line 114, in trainIters
+    loss = train(input_variable, lengths, target_variable, mask, max_target_len, encoder,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/components/train.py", line 55, in train
+    decoder_output, decoder_hidden = decoder(
+                                     ^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/venv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/models/DecoderRNN.py", line 43, in forward
+    output = F.softmax(output, dim=1)
+             ^
+NameError: name 'F' is not defined
+[2023-06-30 01:10:43,828: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:10:43,829: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:10:43,830: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:10:43,830: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 01:10:43,831: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:10:43,832: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:10:43,833: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:10:43,833: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 01:10:44,545: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:10:44,547: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:10:44,547: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:10:44,548: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:10:44,549: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:10:44,550: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:10:44,552: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:10:44,553: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:10:44,553: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:10:44,553: INFO: main: >>>> Stage Data Load Stage started <<<<]
+[2023-06-30 01:10:50,621: INFO: main: >>>> Stage Data Load Stage completed <<<<
+
+X=============================X]
+[2023-06-30 01:10:50,621: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 01:10:50,623: INFO: main: >>>> Stage Data Prepare Stage completed <<<<
+
+X=============================X]
+[2023-06-30 01:10:50,623: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 01:15:40,488: ERROR: main: name 'os' is not defined]
+Traceback (most recent call last):
+  File "/home/shaw/Documents/Projects/Chatbot/main.py", line 52, in <module>
+    train.initialize()
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/pipeline/stage05_training.py", line 58, in initialize
+    trainIters(config.model_name, self.voc, self.pairs, encoder, decoder, encoder_optimizer, decoder_optimizer,
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/components/train.py", line 126, in trainIters
+    directory = os.path.join(config.save_dir, config.model_name, config.corpus_name, '{}-{}_{}'.format(config.encoder_n_layers, config.decoder_n_layers, config.hidden_size))
+                ^^
+NameError: name 'os' is not defined
+[2023-06-30 01:16:35,740: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:16:35,741: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:16:35,741: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:16:35,741: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 01:16:35,742: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:16:35,743: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:16:35,743: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:16:35,743: INFO: common: Directory artifacts/save created successfully]
+[2023-06-30 01:16:36,461: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:16:36,462: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:16:36,462: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:16:36,465: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:16:36,466: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:16:36,466: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:16:36,468: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-30 01:16:36,469: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-30 01:16:36,469: INFO: common: Directory artifacts created successfully]
+[2023-06-30 01:16:36,469: INFO: main: >>>> Stage Data Load Stage started <<<<]
+[2023-06-30 01:16:42,563: INFO: main: >>>> Stage Data Load Stage completed <<<<
+
+X=============================X]
+[2023-06-30 01:16:42,563: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-30 01:16:42,564: INFO: main: >>>> Stage Data Prepare Stage completed <<<<
+
+X=============================X]
+[2023-06-30 01:16:42,564: INFO: main: >>>> Stage Training Stage started <<<<]
+[2023-06-30 01:54:43,508: INFO: main: >>>> Stage Training Stage completed <<<<
+
+X=============================X]
