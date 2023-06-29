@@ -22,3 +22,7 @@ class DataLoadConfig:
     datafile: str 
     max_length: int
     min_count: int
+
+@dataclass(frozen=True)
+class DataPrepareConfig:
+    small_batch_size: int

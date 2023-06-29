@@ -1,15 +1,11 @@
 from ChatBot.config.configuration import ConfigurationManager
 import re
 import unicodedata
-
+from ChatBot.constants import *
 
 config = ConfigurationManager()
 config = config.get_data_load_config()
 
-# Default word tokens
-PAD_token = 0  # Used for padding short sentences
-SOS_token = 1  # Start-of-sentence token
-EOS_token = 2  # End-of-sentence token
 class Voc:
     def __init__(self, name):
         self.name = name

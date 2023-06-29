@@ -1,3 +1,6 @@
 data_load:
   max_length: 10  # Maximum sentence length to consider
   min_count: 3    # Minimum word count threshold for trimming
+
+data_prepare:
+  small_batch_size: 5 # for Example for validation

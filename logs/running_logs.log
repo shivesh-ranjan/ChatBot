@@ -189,3 +189,123 @@ NameError: name 'PAD_token' is not defined
 [2023-06-29 22:57:34,076: INFO: main: >>>> Stage Data Load Stage completed <<<<
 
 X=============================X]
+[2023-06-29 23:24:22,742: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-29 23:24:22,743: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-29 23:24:22,743: INFO: common: Directory artifacts created successfully]
+[2023-06-29 23:24:22,743: INFO: common: Directory artifacts/save created successfully]
+[2023-06-29 23:24:22,744: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-29 23:24:22,744: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-29 23:24:22,744: INFO: common: Directory artifacts created successfully]
+[2023-06-29 23:24:22,744: INFO: common: Directory artifacts/save created successfully]
+[2023-06-29 23:25:08,150: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-29 23:25:08,151: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-29 23:25:08,151: INFO: common: Directory artifacts created successfully]
+[2023-06-29 23:25:08,151: INFO: common: Directory artifacts/save created successfully]
+[2023-06-29 23:25:08,152: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-29 23:25:08,153: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-29 23:25:08,153: INFO: common: Directory artifacts created successfully]
+[2023-06-29 23:25:08,153: INFO: common: Directory artifacts/save created successfully]
+[2023-06-29 23:25:08,155: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-29 23:25:08,155: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-29 23:25:08,156: INFO: common: Directory artifacts created successfully]
+[2023-06-29 23:25:08,156: INFO: main: >>>> Stage Data Load Stage started <<<<]
+[2023-06-29 23:25:13,884: INFO: main: >>>> Stage Data Load Stage completed <<<<
+
+X=============================X]
+[2023-06-29 23:25:13,884: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-29 23:25:13,884: ERROR: main: name 'random' is not defined]
+Traceback (most recent call last):
+  File "/home/shaw/Documents/Projects/Chatbot/main.py", line 41, in <module>
+    input_variable, lengths, target_variable, mask, max_target_len = data_prepare.main()
+                                                                     ^^^^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/pipeline/stage04_dataPrepare.py", line 14, in main
+    input_variable, lengths, target_variable, mask, max_target_len = batch2TrainData(self.voc, [random.choice(self.pairs) for _ in range(small_batch_size)])
+                                                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/pipeline/stage04_dataPrepare.py", line 14, in <listcomp>
+    input_variable, lengths, target_variable, mask, max_target_len = batch2TrainData(self.voc, [random.choice(self.pairs) for _ in range(small_batch_size)])
+                                                                                                ^^^^^^
+NameError: name 'random' is not defined
+[2023-06-29 23:25:34,228: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-29 23:25:34,229: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-29 23:25:34,229: INFO: common: Directory artifacts created successfully]
+[2023-06-29 23:25:34,229: INFO: common: Directory artifacts/save created successfully]
+[2023-06-29 23:25:34,230: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-29 23:25:34,230: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-29 23:25:34,230: INFO: common: Directory artifacts created successfully]
+[2023-06-29 23:25:34,230: INFO: common: Directory artifacts/save created successfully]
+[2023-06-29 23:25:34,232: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-29 23:25:34,232: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-29 23:25:34,232: INFO: common: Directory artifacts created successfully]
+[2023-06-29 23:25:34,232: INFO: main: >>>> Stage Data Load Stage started <<<<]
+[2023-06-29 23:25:39,977: INFO: main: >>>> Stage Data Load Stage completed <<<<
+
+X=============================X]
+[2023-06-29 23:25:39,978: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-29 23:25:39,978: ERROR: main: name 'torch' is not defined]
+Traceback (most recent call last):
+  File "/home/shaw/Documents/Projects/Chatbot/main.py", line 41, in <module>
+    input_variable, lengths, target_variable, mask, max_target_len = data_prepare.main()
+                                                                     ^^^^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/pipeline/stage04_dataPrepare.py", line 15, in main
+    input_variable, lengths, target_variable, mask, max_target_len = batch2TrainData(self.voc, [random.choice(self.pairs) for _ in range(small_batch_size)])
+                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/components/dataPrepare.py", line 46, in batch2TrainData
+    inp, lengths = inputVar(input_batch, voc)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/components/dataPrepare.py", line 24, in inputVar
+    lengths = torch.tensor([len(indexes) for indexes in indexes_batch])
+              ^^^^^
+NameError: name 'torch' is not defined
+[2023-06-29 23:26:02,532: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-29 23:26:02,533: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-29 23:26:02,533: INFO: common: Directory artifacts created successfully]
+[2023-06-29 23:26:02,533: INFO: common: Directory artifacts/save created successfully]
+[2023-06-29 23:26:02,534: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-29 23:26:02,534: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-29 23:26:02,535: INFO: common: Directory artifacts created successfully]
+[2023-06-29 23:26:02,535: INFO: common: Directory artifacts/save created successfully]
+[2023-06-29 23:26:03,260: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-29 23:26:03,261: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-29 23:26:03,261: INFO: common: Directory artifacts created successfully]
+[2023-06-29 23:26:03,261: INFO: main: >>>> Stage Data Load Stage started <<<<]
+[2023-06-29 23:26:09,270: INFO: main: >>>> Stage Data Load Stage completed <<<<
+
+X=============================X]
+[2023-06-29 23:26:09,270: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-29 23:26:09,271: ERROR: main: name 'itertools' is not defined]
+Traceback (most recent call last):
+  File "/home/shaw/Documents/Projects/Chatbot/main.py", line 41, in <module>
+    input_variable, lengths, target_variable, mask, max_target_len = data_prepare.main()
+                                                                     ^^^^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/pipeline/stage04_dataPrepare.py", line 15, in main
+    input_variable, lengths, target_variable, mask, max_target_len = batch2TrainData(self.voc, [random.choice(self.pairs) for _ in range(small_batch_size)])
+                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/components/dataPrepare.py", line 47, in batch2TrainData
+    inp, lengths = inputVar(input_batch, voc)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/components/dataPrepare.py", line 26, in inputVar
+    padList = zeroPadding(indexes_batch)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shaw/Documents/Projects/Chatbot/src/ChatBot/components/dataPrepare.py", line 9, in zeroPadding
+    return list(itertools.zip_longest(*l, fillvalue=fillvalue))
+                ^^^^^^^^^
+NameError: name 'itertools' is not defined
+[2023-06-29 23:26:23,407: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-29 23:26:23,408: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-29 23:26:23,408: INFO: common: Directory artifacts created successfully]
+[2023-06-29 23:26:23,408: INFO: common: Directory artifacts/save created successfully]
+[2023-06-29 23:26:23,409: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-29 23:26:23,409: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-29 23:26:23,409: INFO: common: Directory artifacts created successfully]
+[2023-06-29 23:26:23,409: INFO: common: Directory artifacts/save created successfully]
+[2023-06-29 23:26:24,132: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2023-06-29 23:26:24,132: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-29 23:26:24,132: INFO: common: Directory artifacts created successfully]
+[2023-06-29 23:26:24,132: INFO: main: >>>> Stage Data Load Stage started <<<<]
+[2023-06-29 23:26:30,204: INFO: main: >>>> Stage Data Load Stage completed <<<<
+
+X=============================X]
+[2023-06-29 23:26:30,204: INFO: main: >>>> Stage Data Prepare Stage started <<<<]
+[2023-06-29 23:26:30,205: INFO: main: >>>> Stage Data Prepare Stage completed <<<<
+
+X=============================X]

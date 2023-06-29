@@ -1,6 +1,6 @@
 from ChatBot.constants import *
 from ChatBot.utils.common import read_yaml, create_directories
-from ChatBot.entity import DataIngestionConfig, DataFormatConfig, DataLoadConfig
+from ChatBot.entity import DataIngestionConfig, DataFormatConfig, DataLoadConfig, DataPrepareConfig
 from pathlib import Path
 
 class ConfigurationManager:
@@ -44,3 +44,10 @@ class ConfigurationManager:
             min_count=params.min_count
         )
         return data_load_config
+    
+    def get_data_prepare_config(self) -> DataPrepareConfig:
+        params = self.params.data_prepare
+        data_prepare_config = DataPrepareConfig(
+            small_batch_size=params.small_batch_size
+        )
+        return data_prepare_config
